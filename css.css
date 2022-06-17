@@ -1,0 +1,42 @@
+
+ body {
+    background-size: 90%;
+    background-image: url("star.jpg");
+    color: antiquewhite;
+    text-align: center;
+}
+
+.text {
+    margin-top: 3%;
+}
+
+button {
+    background-color: transparent;
+    color: aliceblue;
+    border-color: aliceblue;
+    cursor: pointer;
+}
+@media only screen and (min-width: 200px) and (max-width: 1200px){
+    button {
+       
+        padding: 0.5%;
+        width: 20vw;
+        margin: 1%;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    img{
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 3800px){
+    button {
+       
+        padding: 0.5%;
+        width: 10vw;
+        margin: 1%;
+        border-radius: 5px;
+
+    }
+}
